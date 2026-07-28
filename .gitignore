@@ -1,0 +1,67 @@
+# Python-Cache und -Build-Ordner
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+
+# Virtuelle Umgebungen
+.venv/
+venv/
+env/
+ENV/
+
+# Umgebungsvariablen und Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Logs und temporäre Dateien
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE- und Editor-Ordner
+.idea/
+.vscode/
+*.iml
+.vs/
+*.sublime-project
+*.sublime-workspace
+*.sw?
+.project
+.settings/
+*.sublime-*
+.idea/
+.vscode/
+*.iml
+
+# Discord-spezifische Dateien
+bot.token
+token.txt
+secrets.json
+config.json
+
+# Betriebssystem-spezifische Dateien
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Projekt-spezifische Ausnahmen (falls du eigene Dateien ignorieren willst)
+# data/
+# *.db

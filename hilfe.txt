@@ -1,0 +1,27 @@
+---jn 22:48 28.07.2026
+ich will einen ki agenten der meinen discord channel betreut.
+
+### Schnellstart in 4 Schritten
+bash
+cd /workspace/discord_bot
+
+1. python -m venv .venv && source .venv/bin/activate
+2. pip install -r requirements.txt
+
+3. cp .env.example .env
+# .env öffnen, DISCORD_TOKEN=… eintragen
+
+4. ollama pull qwen2.5-coder:14b   # und sicherstellen, dass `ollama serve` läuft
+5. python bot.py
+
+### Hinweis zur Command-Struktur
+Die Slash-Commands ist in eine Gruppe /dbot gepackt 
+(Discord erlaubt nur globale Top-Level-Names, die nicht mit Großbuchstaben beginnen). 
+Du rufst sie also so auf:
+
+/dbot ask frage:Was ist RAG?
+/dbot model name:qwen3:14b
+/dbot help
+/dbot clear
+
+### 

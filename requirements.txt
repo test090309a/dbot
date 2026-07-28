@@ -1,0 +1,7 @@
+# Python-Abhängigkeiten für DBot_admin
+# Installation: pip install -r requirements.txt
+
+discord.py>=2.3.2
+python-dotenv>=1.0.0
+aiohttp>=3.9.0
+colorlog
